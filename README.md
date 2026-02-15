@@ -15,5 +15,7 @@ The Student Management System is a Python and SQL-based application used to mana
 - SQL (sqlite3)
 - VS Code
 
-## Author
-Vishnu K
+
+![Weather App Screenshot](./screenshots/Screenshot%20(254).png)
+![Weather App Screenshot](./screenshots/Screenshot%20(255).png)
+ 
