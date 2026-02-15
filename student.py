@@ -1,8 +1,5 @@
 import sqlite3
 
-# ==============================
-# Database Class
-# ==============================
 class Database:
     def __init__(self):
         self.conn = sqlite3.connect("students.db")
@@ -28,9 +25,6 @@ class Database:
         return self.cursor
 
 
-# ==============================
-# Student Class (OOP Model)
-# ==============================
 class Student:
     def __init__(self, name, age, course, marks):
         self.name = name
@@ -39,9 +33,6 @@ class Student:
         self.marks = marks
 
 
-# ==============================
-# Student Management System
-# ==============================
 class StudentManagementSystem:
     def __init__(self):
         self.db = Database()
@@ -105,6 +96,7 @@ class StudentManagementSystem:
         self.db.execute(query, (name, age, course, marks, student_id))
 
         print("✅ Student updated successfully.")
+
 
     # DELETE
     def delete_student(self):
@@ -172,9 +164,7 @@ class StudentManagementSystem:
                 print("Invalid choice.")
 
 
-# ==============================
-# Main Program
-# ==============================
+
 if __name__ == "__main__":
     system = StudentManagementSystem()
     system.menu()
