@@ -1,6 +1,3 @@
-# Student-management-system
-The Student Management System is a database-driven application developed using Python and SQL to efficiently manage student records. This system allows users to perform essential operations such as adding, viewing, updating, and deleting student information.
-
 # Student Management System
 
 ## Description
@@ -11,11 +8,10 @@ The Student Management System is a Python and SQL-based application used to mana
 - View student
 - Update student
 - Delete student
-- Search student
 
 ## Technologies Used
 - Python
-- SQL (Oracle/MySQL)
+- SQL (sqlite3)
 - VS Code
 
 ## Author
